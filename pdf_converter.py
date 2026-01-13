@@ -114,3 +114,12 @@ class PDFConverter:
 if __name__ == '__main__':
     # quick smoke test
     print('PDFConverter module loaded')
+
+    # Initialize converter
+pc = PDFConverter()
+
+# Process a PDF into a cleaned Excel workbook
+output_path = pc.process_pdf_to_clean_excel(
+    input_pdf='path/to/your/input.pdf',
+    final_output_xlsx='path/to/output_final.xlsx'
+)
