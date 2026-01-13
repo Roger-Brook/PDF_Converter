@@ -44,6 +44,8 @@ output_path = pc.process_pdf_to_clean_excel(
 print(f"Output saved to: {output_path}")
 ```
 
+> **Note:** The old module name `pdf_converterr` is retained for backward compatibility. Importing from `pdf_converterr` will continue to work but emits a DeprecationWarning — prefer `from pdf_converter import PDFConverter`.
+
 ### Pipeline Steps
 
 The `process_pdf_to_clean_excel()` method orchestrates the following steps:
