@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
 from pathlib import Path
-from pdf_converterr import PDFConverter
+from pdf_converter import PDFConverter
 
 
 def test_clean_sheets_inplace(tmp_path):

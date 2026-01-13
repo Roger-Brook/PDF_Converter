@@ -30,7 +30,7 @@ A reusable Python utility for converting PDFs to cleaned, structured Excel workb
 ### Basic Example
 
 ```python
-from pdf_converterr import PDFConverter
+from pdf_converter import PDFConverter
 
 # Initialize converter
 pc = PDFConverter()
@@ -83,7 +83,7 @@ Tests cover:
 
 ```
 PDF_Converter/
-├── pdf_converterr.py              # Main module with PDFConverter and PDF_to_Excel_Converter classes
+├── pdf_converter.py               # Main module with PDFConverter and PDF_to_Excel_Converter classes
 ├── tests/
 │   └── test_pdf_converter_pipeline.py  # Unit tests for pipeline methods
 ├── requirements.txt               # Python dependencies
@@ -124,7 +124,7 @@ Utility class for initial PDF extraction.
 ## Example Workflow
 
 ```python
-from pdf_converterr import PDFConverter
+from pdf_converter import PDFConverter
 
 # Create converter instance
 pc = PDFConverter()

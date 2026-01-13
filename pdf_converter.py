@@ -49,7 +49,7 @@ class PDFConverter:
         # save back to the same file
         with pd.ExcelWriter(p, engine='openpyxl') as w:
             for name, df in sheets.items():
-                df.to_excel(w, sheet_name=name, index=False, header=False)
+                df.to_excel(w, sheet_name=str(name), index=False, header=False)
 
     def _consolidate_sheets(self, raw_path: str, consolidated_path: str):
         raw = Path(raw_path)
